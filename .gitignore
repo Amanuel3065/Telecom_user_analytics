@@ -1,4 +1,5 @@
 data/Week1_challenge_data_source.xlsx
 data/cleaned_telecom_data.csv
 
-notebooks/g0.png,g1.png,.ipynb_checkpoints/
+notebooks/g0.png,g1.png
+notebooks/.ipynb_checkpoints/
