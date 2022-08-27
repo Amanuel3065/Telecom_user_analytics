@@ -7,7 +7,7 @@ import pandas.api.types as ptypes
 sys.path.insert(0, '../scripts/')
 sys.path.append(os.path.abspath(os.path.join('scripts')))
 
-from preProcessing import data_preProcessing
+from data_preProcessing import data_preProcessing_script
 
 
 df = pd.DataFrame({'numbers': [2, 4, 6, 7, 9], 'letters': ['a', 'b', 'c', 'd', 'e'],

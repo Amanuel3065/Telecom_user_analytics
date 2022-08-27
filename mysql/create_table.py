@@ -29,7 +29,7 @@ def createDB(dbName: str) -> None:
 
 def createTables(dbName: str) -> None:
     conn, cur = DBConnect(dbName)
-    sqlFile = 'mysql/database.sql'
+    sqlFile = 'database.sql'
     fd = open(sqlFile, 'r')
     readSqlFile = fd.read()
     fd.close()
