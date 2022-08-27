@@ -7,7 +7,7 @@ This project aims to make use of data extracted from a month of aggregated data 
 <summary>1. User Overview analysis</summary>
 
 * After cleaning the data, i.e filling missing values and cleaning outliers, EDA was applied to understand the data better and have some insights about the user data.
-<details>
+</details>
 
 <details>
 <summary>2. User Engagement analysis</summary>
