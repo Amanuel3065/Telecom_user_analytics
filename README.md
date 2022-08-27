@@ -19,7 +19,7 @@ This project aims to make use of data extracted from a month of aggregated data 
 
 * The success of a business would be highly dependent on the user engagement and activity of customers on available apps. It is also very useful for a business know where to concentrate network resources which can be inferred from Sessions frequency and duration of a session. Using this metrics it is possible to analyse user engagement.
 
-<img src="data/ Top 3 apps.JPG" alt="isolated" width="500"/>
+<img src="data/Top 3 apps.JPG" alt="isolated" width="500"/>
 
 </details>
 
