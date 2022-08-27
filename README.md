@@ -1,5 +1,7 @@
 USER ANALYTICS IN TELECOMUNICATION INDUSTRY
-<img src="data/Corelation heatmap.JPG" alt="isolated" width="200"/>
+
+
+<img src="data/readme.jpg" alt="isolated" width="500"/>
 
 This project aims to make use of data extracted from a month of aggregated data on xDR and make predictive models about a telecomunications industry. To accomplish this the objective was divided into 4-subobjectives.
 
