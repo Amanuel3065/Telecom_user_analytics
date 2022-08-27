@@ -4,3 +4,4 @@ data/cleaned_telecom_data.csv
 notebooks/g0.png,g1.png
 .ipynb_checkpoints/
 .vscode
+mysql/.secrets
