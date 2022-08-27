@@ -40,3 +40,9 @@ This project aims to make use of data extracted from a month of aggregated data 
 </details>
 
 
+# INSTALLATION GUIDE
+# ----------------------------------------------------------
+## git clone https://github.com/Amanuel3065/Telecom_user_analytics
+## cd Telecom_user_analytics
+## pip install -r requirements.txt
+# ----------------------------------------------------------
