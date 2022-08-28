@@ -7,11 +7,10 @@ import streamlit as st
 
 
 def DBConnect(dbName=None):
-    conn = mysql.connect(host=st.secrets['mysql']['host'], user=st.secrets['mysql']['user'],
-                         password=st.secrets['mysql']['password'], database=dbName, buffered=True)
+    conn = mysql.connect(host='localhost', user='aman',
+                         password='aman', database=dbName, buffered=True)
     cur = conn.cursor()
     return conn, cur
-
 
 def emojiDB(dbName: str) -> None:
     conn, cur = DBConnect(dbName)
@@ -45,7 +44,7 @@ def createTables(dbName: str) -> None:
     cur.close()
 
 
-def insert_to_tweet_table(dbName: str, df: pd.DataFrame, table_name: str) -> None:
+def insert_to_score_table(dbName: str, df: pd.DataFrame, table_name: str) -> None:
 
     conn, cur = DBConnect(dbName)
     for _, row in df.iterrows():
@@ -89,5 +88,5 @@ if __name__ == "__main__":
     createTables(dbName='score_db')
     df = pd.read_csv('../data/score_table.csv')
     df.info()
-    insert_to_tweet_table(dbName='score_db', df=df,
+    insert_to_score_table(dbName='score_db', df=df,
                           table_name='score_table')

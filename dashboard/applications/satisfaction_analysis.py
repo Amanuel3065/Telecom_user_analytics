@@ -19,5 +19,4 @@ def app():
 
     st.header("User Clustering based on both scores")
     st.image('data/satisfaction.jpg')
-    st.markdown(
-        'By raising the experience score of a user, which means improving the round trip time, average throughput and TCP of handsets, we can improve user satisfaction.')
+    
