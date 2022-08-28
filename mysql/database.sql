@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `score_table` 
+CREATE TABLE IF NOT EXISTS `scoretable` 
 (
     `user_id` FLOAT NOT NULL,
     `engagement_score` FLOAT NOT NULL,

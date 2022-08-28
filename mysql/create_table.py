@@ -89,4 +89,4 @@ if __name__ == "__main__":
     df = pd.read_csv('../data/score_table.csv')
     df.info()
     insert_to_score_table(dbName='score_db', df=df,
-                          table_name='score_table')
+                          table_name='scoretable')
